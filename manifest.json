@@ -1,0 +1,14 @@
+{
+    "name": "tong-scanner",
+    "short_name": "scanner",
+    "start_url": "index.html",
+    "display": "standalone", 
+    "theme_color": "#000", 
+    "background_color": "#000", 
+    "icons": [
+      {
+        "src": "img/icons/android-chrome-192x192.png",
+        "sizes": "200x200"
+      }
+    ]
+  }

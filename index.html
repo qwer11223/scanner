@@ -1,0 +1,12 @@
+<!doctype html><html lang=""><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="favicon.ico"><title>tong-scanner</title><link rel="manifest" href="manifest.json"><script defer="defer" src="js/chunk-vendors.b9da666c.js"></script><script defer="defer" src="js/app.86ee8fcf.js"></script><link href="css/app.01d7cf7d.css" rel="stylesheet"></head><body><noscript><strong>We're sorry but tong-scanner doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id="app"></div></body><script>window.addEventListener('load', () => {
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker
+        .register('service-worker.js')
+        .then(registration => {
+          console.log('register success ', registration);
+        })
+        .catch(err => {
+          console.log('register error ', err);
+        })
+    }
+  })</script></html>
